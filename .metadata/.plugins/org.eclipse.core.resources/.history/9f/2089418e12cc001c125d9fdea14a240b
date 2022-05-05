@@ -1,0 +1,20 @@
+
+public class MovieList {
+
+	public static void main(String[] args) {
+		System.out.println("Hello! Welcome to David's finely curated movie list!");
+		printMenu();
+	
+
+	}
+	
+	public static void printMenu() {
+		System.out.println("Please select one of the options below to receive movie recommendations for each given category!");
+		System.out.println("1. Comedy");
+		System.out.println("2. Sci-fi");
+		System.out.println("3. Action");
+		System.out.println("4. Drama"); 
+		System.out.println("5. Musicals");
+	}
+
+}

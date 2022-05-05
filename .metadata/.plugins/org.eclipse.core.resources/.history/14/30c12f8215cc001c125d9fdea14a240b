@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class MovieList {
+
+	public static void main(String[] args) {
+		System.out.println("Hello! Welcome to David's finely curated movie list!");
+		printMenu();
+		
+		ArrayList movieList = new ArrayList();
+		movieList.add(new Movie("Revenge of the Sith", "Sci-fi"));
+		movieList.add(new Movie("Step Brothers", "Comedy"));
+		movieList.add(new Movie("The Batman", "Action"));
+		movieList.add(new Movie("The Dark Knight", "Action"));
+		movieList.add(new Movie("Superbad", "Comedy"));
+		movieList.add(new Movie("The Greatest Showman", "Musical"));
+		movieList.add(new Movie("Avengers: Infinity War", "Action"));
+		movieList.add(new Movie("Casino Royale", "Action"));
+		movieList.add(new Movie("The Empire Strikes Back", "Sci-fi"));
+		movieList.add(new Movie("Hairspray", "Musical"));
+	
+
+	}
+	
+	public static void printMenu() {
+		System.out.println("Please select one of the options below to receive movie recommendations for each given category!");
+		System.out.println("1. Comedy");
+		System.out.println("2. Sci-fi");
+		System.out.println("3. Action");
+		System.out.println("4. Drama"); 
+		System.out.println("5. Musical");
+	}
+	
+	
+
+}
