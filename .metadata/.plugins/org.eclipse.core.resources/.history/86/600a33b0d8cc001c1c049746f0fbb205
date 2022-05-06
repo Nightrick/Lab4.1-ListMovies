@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class MovieList {
@@ -22,8 +21,6 @@ public class MovieList {
 		movieList.add(new Movie("Casino Royale", "Action"));
 		movieList.add(new Movie("The Empire Strikes Back", "Sci-fi"));
 		movieList.add(new Movie("Hairspray", "Musical"));
-		
-		movieList.sort(Comparator.comparing(Movie::getTitle));
 		
 		System.out.println("Hello! Welcome to David's finely curated movie list!");
 		
